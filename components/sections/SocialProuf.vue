@@ -7,28 +7,28 @@
                     <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl text-neutral-9 dark-text-white">
                         12+
                     </h2>
-                    <p class="mt-2 text-neutral7 dark-text-neutral3">Created projects</p>
+                    <p class="mt-2 text-neutral7 dark-text-neutral3">Profiles</p>
                 </div>
 
                 <div class="text-center">
                     <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl text-neutral-9 dark-text-white">
-                        200+
+                        20
                     </h2>
                     <p class="mt-2 text-neutral7 dark-text-neutral3">Projects</p>
                 </div>
 
                 <div class="text-center">
                     <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl text-neutral-9 dark-text-white">
-                        120
+                        12
                     </h2>
-                    <p class="mt-2 text-neutral7 dark-text-neutral3">Happy Client</p>
+                    <p class="mt-2 text-neutral7 dark-text-neutral3">Client</p>
                 </div>
 
                 <div class="text-center">
                     <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl text-neutral-9 dark-text-white">
                         5+
                     </h2>
-                    <p class="mt-2 text-neutral7 dark-text-neutral3">Years</p>
+                    <p class="mt-2 text-neutral7 dark-text-neutral3">Experience</p>
                 </div>
             </div>
         </div>

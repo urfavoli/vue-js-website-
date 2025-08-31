@@ -12,7 +12,7 @@ const logos = [
     },
     {
         id:3,
-        label:"Spotify",
+        label:"Youtube",
         logo:"/logos/spotify.png"
     },
     {
@@ -27,7 +27,7 @@ const logos = [
     },
     {
         id:6,
-        label:"Spotify",
+        label:"Instagram",
         logo:"/logos/spotify.png"
     },
 ]

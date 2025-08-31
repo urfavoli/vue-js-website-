@@ -1,9 +1,9 @@
 <template>
-    <div class="min-h-screen flex flex-col justify-between">
-        <ElementNavbar/>
-        <slot/>
-        <ElementFooter/>
-    </div>
+  <div class="min-h-screen flex flex-col justify-between">
+    <ElementNavbar />
+    <slot />
+    <ElementFooter />
+  </div>
 </template>
 
 <style>

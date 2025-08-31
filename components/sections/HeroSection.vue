@@ -12,11 +12,11 @@
                 lg-max-w-none max-w-3xl mx-auto lg-mx-0 lg-flex-1 class="lg-w-1/2">
  
                 <h1 text="3xl/tight sm:4xl/tight md:5xl/tight xl:6xl/tight neutral-8 dark:white" font-bold>
-                    Unlock the Power of Social Media <span class="text-transparent bg-clip-text bg-gradient-to-br from-teal-6 from-20% via-emerald-600 via-30% to-green-6">Marketing!</span>
+                    Les petits pandas <span class="text-transparent bg-clip-text bg-gradient-to-br from-teal-6 from-20% via-emerald-600 via-30% to-green-6">Guarderie :</span>
                 </h1>
                 <p mt-8 text="neutral-7 dark:neutral-3">
-                    Elevate your brand with our unparalleled social media marketing solutions. Connect, engage, and thrive in the digital landscape.
-                </p>
+                    Guarderie .. :
+                </p>description ici :
                 <div mt-10 w-full flex max-w-md mx-auto lg-mx-0>
                     <div flex sm-flex-row flex-col gap-5 w-full>
                         <form action="#" py-1 pl-6 w-full pr-1 flex gap-3 items-center 
@@ -33,7 +33,7 @@
                                 class="outline-none flex justify-center items-center sm-w-max min-w-max px6 h12 bg-emerald-6 rd-full relative
                                 overflow-hidden duration-300 ease-linear">
                                 <span class="hidden sm-flex relative z20 text-white">
-                                    Get Started
+                                    commencer ici 
                                 </span>
                                 <span flex sm-hidden relative z20>
                                     <span i-carbon-send flex text-xl bg-white></span>
@@ -45,7 +45,7 @@
             </div>
  
             <div flex flex-1 lg-h-auto relative lg-max-w-none mx-auto max-w-3xl class="lg-w-1/2">
-                <img src="/images/happy-work.webp" alt="Hero image" width="2350" height="2359" rd-3xl object-cover
+                <img src="/images/im2.jpeg" alt="Hero image" width="2350" height="2359" rd-3xl object-cover
                     lg="absolute w-full lg-h-full" class="lg-max-h-none max-h-96">
             </div>
         </div>

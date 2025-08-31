@@ -20,15 +20,14 @@
                 </div>
                 <div class="mx-auto text-center max-w-xl md-max-w-2xl relative space-y-8">
                     <h1 text="3xl/tight sm:4xl/tight md:5xl/tight emerald-950 dark:white" class="font-bold">
-                        Quick Start your <span class="text-transparent bg-clip-text bg-gradient-to-br from-emerald-6 from-20% via-teal-4 via-30% to-teal-6">Strategic Digital</span> Marketing Campaing
+                        une commence rapide ..  <span class="text-transparent bg-clip-text bg-gradient-to-br from-emerald-6 from-20% via-teal-4 via-30% to-teal-6">Strategic Digital</span> Marketing Campaing
                     </h1>
                     <p text="neutral-7 dark:neutral-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-                        delectus architecto ullam earum
+                        Description
                     </p>
                     <div class="mx-auto max-w-md sm-max-w-xl flex justify-center">
-                        <nuxt-link to="#" 
-                         border="~ transparent hover:emerald7"
+                        <nuxt-link to="#"
+border="~ transparent hover:emerald7"
                                 un-after="absolute content-empty inset-x-0 aspect-square scale-0 op-70 origin-center duration-300 ease-linear rd-full top-0 left-0 bg-emerald7 hover:op-100 hover:scale-[2.5]"
                         class="outline-none h12 px6 rd-3xl bg-emerald6 text-white flex items-center overflow-hidden  wmax relative">
                             <span relative z10>

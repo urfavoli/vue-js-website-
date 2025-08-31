@@ -1,0 +1,26 @@
+
+.background-animation {
+  background: linear-gradient(-45deg, #0f3d3d, #1a5c5c, #0d2e2e, #1f4f4f);
+  background-size: 400% 400%;
+  animation: background-gradient-animation 20s ease infinite;
+}
+
+@keyframes background-gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 8px rgba(0, 255, 200, 0.6), 0 0 15px rgba(0, 255, 150, 0.4);
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}

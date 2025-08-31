@@ -2,17 +2,15 @@
     <section class="py24">
         <div class="max-w-7xl mx-auto px-5 sm-px-10 md-px-12 lg-px-5 flex flex-col md-flex-row gap16">
             <div class="flex md-flex-1">
-                <img src="/images/heroImg.webp" alt="working on housing" width="1300"
+                <img src="/images/im1.jpeg" alt="guarderie" width="1300"
                     class="wfull md-hfull object-cover rd-3xl">
             </div>
             <div class="md-w-1/2 lg-w-54% space-y-12 text-neutral-7 dark-text-neutral-3 md-py8">
                 <h1 class="text-neutral9 dark-text-white font-semibold text-2xl sm-text-3xl md-text-4xl">
-                    We help drive your business forward faster
+                    description
                 </h1>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, saepe aliquid autem alias vero
-                    distinctio dignissimos consequatur? Excepturi quibusdam, quam ipsum hic, laudantium ducimus suscipit,
-                    culpa facere consequuntur repellat delectus.
+                    description
                 </p>
                 <div class="grid sm-grid-cols-2 gap6">
                     <div p="5 sm:6 lg:8" class="space-y-6 rd-3xl bg-neutral1 dark-bg-neutral9 border border-neutral2 dark-border-neutral8">
@@ -25,10 +23,10 @@
                         </span>
                         <h2 class="font-semibold text-xl text-neutral9 dark-text-white">Our mission</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur
+phrase : ur
                         </p>
                     </div>
- 
+
                     <div p="5 sm:6 lg:8" class="space-y-6 rd-3xl bg-neutral1 dark-bg-neutral9 border border-neutral2 dark-border-neutral8">
                         <span class="rd-xl bg-neutral2 dark-bg-neutral8 text-neutral8 dark-text-neutral2 wmax p3 flex">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -40,7 +38,7 @@
                         </span>
                         <h2 class="font-semibold text-xl text-neutral-9 dark-text-white">Our vision</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur
+                            Description
                         </p>
                     </div>
                 </div>

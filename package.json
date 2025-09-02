@@ -26,6 +26,8 @@
   "dependencies": {
     "@nuxt/image": "^1.0.0",
     "clsx": "^2.0.0",
+    "gsap": "^3.13.0",
+    "split-type": "^0.3.4",
     "tailwind-merge": "^1.14.0"
   }
 }

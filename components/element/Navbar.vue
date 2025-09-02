@@ -104,7 +104,7 @@ const navIsOpen = useState("navIsOpen", () => false);
 const navItems = [
   {
     id: 1,
-    text: "Home",
+    text: "Accueil",
     href: "/",
   },
   {
@@ -114,12 +114,12 @@ const navItems = [
   },
   {
     id: 3,
-    text: "About us",
+    text: "À propos",
     href: "/about", // Example of a different page
   },
   {
     id: 4,
-    text: "Features",
+    text: "Atouts",
     href: "/features", // Example of a different page
   },
 ];
@@ -153,57 +153,6 @@ function closeNavBar() {
 /* Ensures the navbar is transparent by default but gains a backdrop on mobile menu open */
 header {
   transition: all 0.3s ease-in-out;
-}
-
-/* --- 2. Glowing Effect for Links and CTA --- */
-/*
-  This class creates a subtle glow on hover for text links.
-  It's applied to the logo and each navigation item.
-*/
-.glow-on-hover {
-  position: relative;
-  transition: all 0.3s ease-in-out;
-  color: #fff;
-}
-.glow-on-hover:hover {
-  text-shadow: 0 0 8px rgba(0, 255, 200, 0.6), 0 0 15px rgba(0, 255, 150, 0.4);
-  transform: scale(1.05); /* Slight scaling for a more dynamic feel */
-  color: #00ffc8;
-}
-
-/*
-  This class is for the main CTA button. It has a more pronounced glow.
-*/
-.glow-on-hover-cta {
-  box-shadow: 0 0 10px rgba(0, 255, 200, 0.4);
-}
-.glow-on-hover-cta:hover {
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 0 15px rgba(0, 255, 200, 0.7),
-    0 0 25px rgba(0, 255, 150, 0.5), 0 0 40px rgba(0, 200, 255, 0.3);
-}
-
-/* --- 3. Hover Effect for CTA Button --- */
-/*
-  The `::after` pseudo-element creates a dynamic fill effect on hover,
-  giving the button a liquid-like animation.
-*/
-.glow-on-hover-cta::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 9999px; /* This creates the full circle shape */
-  background-color: rgba(0, 255, 200, 0.2);
-  transform: scale(0);
-  transition: transform 0.3s ease-in-out;
-  z-index: 0;
-}
-
-.glow-on-hover-cta:hover::after {
-  transform: scale(1);
 }
 
 /* --- 4. Mobile Menu Transition --- */

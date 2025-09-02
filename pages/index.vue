@@ -10,20 +10,21 @@
     >
       <div class="space-y-6">
         <h1
-          class="text-4xl font-extrabold sm:text-5xl lg:text-7xl animate-pulse-slow text-shadow-glow"
+          class="text-4xl font-extrabold sm:text-5xl lg:text-7xl"
         >
-          Les Petits Pandas 🐼
+          <AnimatedText>Les Petits Pandas 🐼</AnimatedText>
         </h1>
         <p
           class="mx-auto max-w-2xl text-lg sm:text-xl lg:text-2xl opacity-0 animate-fade-in-up animation-delay-500"
         >
           Un monde de douceur et d'éveil pour vos enfants.
         </p>
-        <button
-          class="glow-on-hover mt-8 rounded-full border border-green-400 px-8 py-4 text-lg font-bold uppercase tracking-wide transition duration-300 ease-in-out"
+        <nuxt-link
+          to="/services"
+          class="glow-on-hover-cta relative z-10 inline-flex justify-center items-center mt-8 rounded-full border border-green-400 px-6 py-3 text-base font-bold uppercase tracking-wide transition duration-300 ease-in-out sm:px-8 sm:py-4 sm:text-lg"
         >
-          Découvrez nos services
-        </button>
+          <span class="relative z-10 text-white">Découvrez nos services</span>
+        </nuxt-link>
       </div>
       <img
         :src="getImageUrl('im1.jpeg')"
@@ -34,8 +35,8 @@
 
     <section class="py-20 animate-fade-in-up animation-delay-1000">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="mb-12 text-4xl font-bold text-shadow-glow">
-          Nos Services
+        <h2 class="mb-12 text-4xl font-bold">
+          <AnimatedText>Nos Services</AnimatedText>
         </h2>
         <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div
@@ -86,8 +87,8 @@
 
     <section class="py-20 animate-fade-in-up animation-delay-1500">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="mb-12 text-4xl font-bold text-shadow-glow">
-          Qui sommes-nous ?
+        <h2 class="mb-12 text-4xl font-bold">
+          <AnimatedText>Qui sommes-nous ?</AnimatedText>
         </h2>
         <div class="items-center md:flex md:space-x-8">
           <div class="mb-6 md:mb-0 md:w-1/2">
@@ -117,8 +118,8 @@
 
     <section class="py-20 animate-fade-in-up animation-delay-2000">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="mb-12 text-4xl font-bold text-shadow-glow">
-          Ce que disent nos parents
+        <h2 class="mb-12 text-4xl font-bold">
+          <AnimatedText>Ce que disent nos parents</AnimatedText>
         </h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700">
@@ -154,8 +155,8 @@
 
     <section class="py-20 animate-fade-in-up animation-delay-2500">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="mb-8 text-4xl font-bold text-shadow-glow">
-          Inscrivez votre enfant dès aujourd'hui !
+        <h2 class="mb-8 text-4xl font-bold">
+          <AnimatedText>Inscrivez votre enfant dès aujourd'hui !</AnimatedText>
         </h2>
         <p class="mb-8 text-lg text-gray-300">
           Les places sont limitées pour assurer un suivi personnalisé et de
@@ -220,14 +221,7 @@ function getImageUrl (name: string) {
 .animation-delay-2700 { animation-delay: 2.7s; }
 .animation-delay-2900 { animation-delay: 2.9s; }
 
-.animate-pulse-slow {
-  animation: pulse-slow 3.5s infinite ease-in-out;
-}
 
-@keyframes pulse-slow {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.03); opacity: 0.9; }
-}
 
 .service-card:hover {
   box-shadow: 0 0 15px rgba(0, 255, 200, 0.7);
